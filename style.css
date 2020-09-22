@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/raleway.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+	src: url('fonts/raleway-extrabold.ttf') format('truetype');
+}
+
+body {
+    background-image:
+    linear-gradient(90deg, rgba(32,67,108,1) 0%, rgba(29,100,175,1) 26%, rgba(12,126,210,1) 36%, rgba(8,88,225,0) 64%, rgba(0,9,255,0) 100%),
+    url('img/vlak.webp');
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: right;
+}
+
+.htitle {
+	font-family: 'Raleway-ExtraBold', sans-serif;
+	font-style: italic;
+	font-size: 110px;
+	text-align: left;
+	color: white;
+}
+
+.htitles {
+	font-family: 'Raleway-ExtraBold', sans-serif;
+	font-size: 50px;
+	text-align: left;
+	color: white;
+}
+
+.htext {
+	font-family: 'Raleway';
+	font-size: 30px;
+	color: white;
+}
+
+.htexta {
+	font-family: 'Raleway';
+	font-size: 30px;
+	color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  margin-left: 2%;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+  float: left;
+  margin-left: 2%;
+  padding: 15px;
+}
+
+.right {
+  width: 50%;
+  float: left;
+  padding: 15px;
+}
+
+.footer {
+  font-family: 'Raleway';
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
